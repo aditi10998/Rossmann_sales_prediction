@@ -79,14 +79,18 @@ Random forests or random decision forests is an ensemble learning method for cla
 
  Linear Regression Model with Cross Validation: - 
  
-1.Our Data set is not perfectly suitable for the linear regression model. 
+1.Our Data set is not perfectly suitable for the linear regression model.It is giving accuracy of 83 with test data and accuracy of 84 with training data.
+
 2.We tried cross validation with linear regression but the model still improved by 0.01 percent.
+
 3.Lasso and Ridge Regression with Cross validation & Hyperparameter: -        
-They are both also unable to improve the accuracy of our model even after Hyperparameter tuning.
+They are both also unable to improve the accuracy of our model even after Hyperparameter tuning giving accuracy of 83 with test data and 84 with training data.
+
 4.Decision Tree Regression: -
-It works Excellent on our Data set. Giving R2 of 0.99. We can also say the model has overfitted our dataset for the Decision Tree Regression.
+It works Excellent on our Data set. Giving accuracy of 93 with test data and accuracy of 99 with training data. We can also say the model has overfitted our dataset for the Decision Tree Regression.
+
 5.Random Forest Regression: -
-It also works great on our Data set. Giving R2 of 0.99.
+It also works great on our Data set. Giving accuracy of 70 with test data and accuracy of 70 with test data which is consider as ideal solution of the model.
 
 **Conclusion:**
 1.	Sundays have negligible sales records. Monday (1) and Friday (5) have the highest sales. Fridays have maximum sales records. Customer features also follow the same trend.
